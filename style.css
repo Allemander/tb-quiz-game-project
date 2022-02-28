@@ -1,0 +1,34 @@
+.welcome {
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    height: 250px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    box-sizing: content-box;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myScore {
+    float: left;
+}
+#myTime {
+    float: right;
+}
+.question-container {
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    height: 250px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    box-sizing: content-box;
+}
+li {
+    text-align: left;
+}
